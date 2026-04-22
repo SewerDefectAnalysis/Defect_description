@@ -25,6 +25,7 @@ flowchart LR
     end
 
     style boxD stroke:#FF0000,stroke-width:3px,fill:none
+    style boxC stroke:#FF0000,stroke-width:3px,fill:none
 
     B -.-> C
 
@@ -40,6 +41,7 @@ flowchart LR
     classDef analysis fill:#F3E8FD,stroke:#9334E6
     classDef analysisP2 fill:#FDEBD0,stroke:#E67E22
     classDef optional fill:#E6F4EA,stroke:#666666,stroke-dasharray: 5 5
+
 
 
 ```
