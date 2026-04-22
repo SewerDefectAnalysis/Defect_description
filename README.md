@@ -87,8 +87,6 @@ Provides the functions for a detailed description of the dataset, summarizing ke
 Includes functions that generate a general description of the network, such as the number of defects per kilometer and per pipe, as well as the distribution of defect types by material.
 #### `defect_properties_description.py`
 Provides functions to analyze the properties of observed defects, including size, longitudinal distance, extent, and clock reference position.
-#### `defect_correlation.py`
-Contains the function used to calculate pearson correlations between defect types.
 
 ---
 ## 3. Input Data
