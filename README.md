@@ -25,7 +25,7 @@ flowchart LR
     end
 
     style boxD stroke:#FF0000,stroke-width:3px,fill:none
-    style boxC stroke:#FF0000,stroke-width:3px,fill:none
+    style boxC fill:none,stroke:none
 
     B -.-> C
 
