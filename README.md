@@ -14,9 +14,9 @@ flowchart LR
     B --> D[Defect Distribution<br/>Analysis]:::analysis
     D --> E[Defect-Factor<br/>Correlation]:::analysisP2
 
-    subgraph boxB[ ]
+    subgraph boxD[ ]
         direction TB
-        B
+        D
     end
 
     subgraph boxC[ ]
