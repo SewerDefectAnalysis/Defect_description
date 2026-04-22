@@ -14,18 +14,13 @@ flowchart LR
     B --> D[Defect Distribution<br/>Analysis]:::analysis
     D --> E[Defect-Factor<br/>Correlation]:::analysisP2
 
-    subgraph boxB[ ]
+
+    subgraph boxD[ ]
         direction TB
-        B
+        D[Defect Distribution<br/>Analysis]:::optional
     end
 
-    subgraph boxC[ ]
-        direction TB
-        C[Optional: Validation<br/>Report]:::optional
-    end
-
-    style boxB stroke:#FF0000,stroke-width:3px,fill:none
-    style boxC stroke:#FF0000,stroke-width:3px,fill:none
+    style boxD stroke:#FF0000,stroke-width:3px,fill:none
 
     B -.-> C
 
